@@ -139,6 +139,15 @@ let
         sha512 = "zq24hfuAmmlNZvik0FLI58uE5sriN0WWsQzIlYnzSuKDAHFqJtBFrl/LfB1NLgJT5Y7dEBzaX4yAKqOPrcetaw==";
       };
     };
+    "@pkgjs/parseargs-0.11.0" = {
+      name = "_at_pkgjs_slash_parseargs";
+      packageName = "@pkgjs/parseargs";
+      version = "0.11.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz";
+        sha512 = "+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==";
+      };
+    };
     "@textlint-rule/textlint-rule-no-invalid-control-character-3.0.0" = {
       name = "_at_textlint-rule_slash_textlint-rule-no-invalid-control-character";
       packageName = "@textlint-rule/textlint-rule-no-invalid-control-character";
@@ -166,6 +175,15 @@ let
         sha512 = "qrZyhCh8Ekk6nwArx3BROybm9BnX6vF7VcZbijetV/OM3yfS4rTYhoMWISmhVEP2H2re0CtWEyMl/XF+WdvVLQ==";
       };
     };
+    "@textlint/ast-node-types-15.1.1" = {
+      name = "_at_textlint_slash_ast-node-types";
+      packageName = "@textlint/ast-node-types";
+      version = "15.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@textlint/ast-node-types/-/ast-node-types-15.1.1.tgz";
+        sha512 = "4NtgSdB36MmmcDkof8cPDVPiiKzrEzauomk90gCFmY9iLl1hNQDhYANJEaryoQH/rJvjgPVfTYVFD0puI54QDQ==";
+      };
+    };
     "@textlint/ast-node-types-15.2.2" = {
       name = "_at_textlint_slash_ast-node-types";
       packageName = "@textlint/ast-node-types";
@@ -184,13 +202,13 @@ let
         sha512 = "YSHUR1qDgMPGF5+nvrquEhif6zRJ667xUnfP/9rTNtThIhoTQINvczr5/7xa43F1PDWplL6Curw+2jrE1qHwGQ==";
       };
     };
-    "@textlint/ast-tester-15.2.2" = {
+    "@textlint/ast-tester-15.1.1" = {
       name = "_at_textlint_slash_ast-tester";
       packageName = "@textlint/ast-tester";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/ast-tester/-/ast-tester-15.2.2.tgz";
-        sha512 = "puwnJSPOeqtPQslz6ehfEF1wqoTb/iTebHj+vy6zePpHhBZRJdZKOqPe7p83Atetc8O5SEYa1aJ8ur8sSm0wQw==";
+        url = "https://registry.npmjs.org/@textlint/ast-tester/-/ast-tester-15.1.1.tgz";
+        sha512 = "erRVqr2axwgUOapF3ooZ2KNhs2N3EPd92Lw/mwYO3u68Vte4NHwVuH0nS/Dm829YN8GzpvFuGVxRicR8Jzf6Mw==";
       };
     };
     "@textlint/ast-traverse-13.4.1" = {
@@ -202,22 +220,22 @@ let
         sha512 = "uucuC7+NHWkXx2TX5vuyreuHeb+GFiA83V65I+FnYP5EC4dAMOQ86rTSPrZmCwLz+qIWgfDgihGzPccpj3EZGg==";
       };
     };
-    "@textlint/ast-traverse-15.2.2" = {
+    "@textlint/ast-traverse-15.1.1" = {
       name = "_at_textlint_slash_ast-traverse";
       packageName = "@textlint/ast-traverse";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/ast-traverse/-/ast-traverse-15.2.2.tgz";
-        sha512 = "5uZCNp6fSYvDgQW3LGnJYC90ac1qWhUZJtjE1tI0fPk7U14Gr0Qu5FEOMuW0YUV5aoo3P1OpwrKPt2U6FFlrvg==";
+        url = "https://registry.npmjs.org/@textlint/ast-traverse/-/ast-traverse-15.1.1.tgz";
+        sha512 = "69Syv32wXR++3B9flheislnKEZ/7rnlz9VYds4v9Dv5QnyTgsN3JhaS/d9lcrq3uFNhB0ivGKFMmAcySI2Wt7Q==";
       };
     };
-    "@textlint/config-loader-15.2.2" = {
+    "@textlint/config-loader-15.1.1" = {
       name = "_at_textlint_slash_config-loader";
       packageName = "@textlint/config-loader";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/config-loader/-/config-loader-15.2.2.tgz";
-        sha512 = "uFlxTMhgS0jLzdn4xd3TDS/3QWlE8br2LQVnCjdNmvyU7qNpXHy/9+XUEfbvVMyBXrfBnDIFY4AQAXfhGdOo7g==";
+        url = "https://registry.npmjs.org/@textlint/config-loader/-/config-loader-15.1.1.tgz";
+        sha512 = "YE1XfFmC5OWOpXu8N+aiX9l9J6DDknrc8SIk8VD9qIi4kXjOM05V/mMU5mYMxBGnPyYq2qFnoTT4yZsthvPCWA==";
       };
     };
     "@textlint/feature-flag-13.4.1" = {
@@ -229,22 +247,22 @@ let
         sha512 = "qY8gKUf30XtzWMTkwYeKytCo6KPx6milpz8YZhuRsEPjT/5iNdakJp5USWDQWDrwbQf7RbRncQdU+LX5JbM9YA==";
       };
     };
-    "@textlint/feature-flag-15.2.2" = {
+    "@textlint/feature-flag-15.1.1" = {
       name = "_at_textlint_slash_feature-flag";
       packageName = "@textlint/feature-flag";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/feature-flag/-/feature-flag-15.2.2.tgz";
-        sha512 = "SX//fr056jGT3aRDbPTz4k0kEqyHRTvbHTr7HgC3yuksO89NKl605gmU9flrykBZC+i4GOMcR2BL4SweiNXbTg==";
+        url = "https://registry.npmjs.org/@textlint/feature-flag/-/feature-flag-15.1.1.tgz";
+        sha512 = "XHI2X2loRu5qJZyXRMjUCh9e5hE9blE6hJ8WoXcTEa+PX/GycywJQes7aNRDGzYjd8hQXujnZyVIzEM8/8PB6A==";
       };
     };
-    "@textlint/fixer-formatter-15.2.2" = {
+    "@textlint/fixer-formatter-15.1.1" = {
       name = "_at_textlint_slash_fixer-formatter";
       packageName = "@textlint/fixer-formatter";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/fixer-formatter/-/fixer-formatter-15.2.2.tgz";
-        sha512 = "wX52sevPrM/hWDAolBm5yJkSQ5QGmLYMja4C1Ao3o/HVO5eI/Q6PS8amtoGJOilOXKrVV0hBuEwGdrXuyGngXw==";
+        url = "https://registry.npmjs.org/@textlint/fixer-formatter/-/fixer-formatter-15.1.1.tgz";
+        sha512 = "54TUdB9Xb8VpXXnm2TQr5uQ7vpoJnerpRFqRkcXvawjUe4hMnYW6yzgvcLv6XCDyQ7DTvls8BB4wWlYmTeXwxQ==";
       };
     };
     "@textlint/kernel-13.4.1" = {
@@ -256,22 +274,22 @@ let
         sha512 = "r2sUhjPysFjl2Ax37x9AfWkJM8jgKN0bL4SX3xRzOukdcj69Dst5On5qBZtULaVMX1LDkwkdxA6ZEADmq27qQA==";
       };
     };
-    "@textlint/kernel-15.2.2" = {
+    "@textlint/kernel-15.1.1" = {
       name = "_at_textlint_slash_kernel";
       packageName = "@textlint/kernel";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/kernel/-/kernel-15.2.2.tgz";
-        sha512 = "xFtIx3thI3SC2wk4uApJ5lW0cks4pkSfoRejfYoAMwPd1VyvFhCsQQWNRTyXIlXfNIGT6qY82SoPyXvi3XF6Zg==";
+        url = "https://registry.npmjs.org/@textlint/kernel/-/kernel-15.1.1.tgz";
+        sha512 = "65JIAzJTV4jhMRiJkULREE9/unFbYzXkWRsnjqfIhJtaVwJFrQ3C8mZkAtXMvIGSALf3VzwCjg6dty6DZCcfKw==";
       };
     };
-    "@textlint/linter-formatter-15.2.2" = {
+    "@textlint/linter-formatter-15.1.1" = {
       name = "_at_textlint_slash_linter-formatter";
       packageName = "@textlint/linter-formatter";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/linter-formatter/-/linter-formatter-15.2.2.tgz";
-        sha512 = "oMVaMJ3exFvXhCj3AqmCbLaeYrTNLqaJnLJMIlmnRM3/kZdxvku4OYdaDzgtlI194cVxamOY5AbHBBVnY79kEg==";
+        url = "https://registry.npmjs.org/@textlint/linter-formatter/-/linter-formatter-15.1.1.tgz";
+        sha512 = "KfO/ZL/Mmp1jftaeUbNyPZptuBDvn3ZaDsCgDw7qeY0botVr33ndgAG6TfT4BYz8pwqG+aXPKLS7QkN4yofchQ==";
       };
     };
     "@textlint/markdown-to-ast-13.4.1" = {
@@ -283,13 +301,13 @@ let
         sha512 = "jUa5bTNmxjEgfCXW4xfn7eSJqzUXyNKiIDWLKtI4MUKRNhT3adEaa/NuQl0Mii3Hu3HraZR7hYhRHLh+eeM43w==";
       };
     };
-    "@textlint/markdown-to-ast-15.2.2" = {
+    "@textlint/markdown-to-ast-15.1.1" = {
       name = "_at_textlint_slash_markdown-to-ast";
       packageName = "@textlint/markdown-to-ast";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/markdown-to-ast/-/markdown-to-ast-15.2.2.tgz";
-        sha512 = "7LsDOCApuM5463e4mfJAORyOMDxzJGmfDfoT6RtwL5P1T1kKGxLl5yudzdfm8++WB8v4wJZZEUQqppejeDRs9Q==";
+        url = "https://registry.npmjs.org/@textlint/markdown-to-ast/-/markdown-to-ast-15.1.1.tgz";
+        sha512 = "PBBXkrx8r1kN0R2HbPKw1/X4zAcPwS7wkb56wE7ERKmCE3uwk1jwhyHO8fPzHt7zfGS2jPqnSgPfdk2JVYPztA==";
       };
     };
     "@textlint/module-interop-14.8.4" = {
@@ -301,13 +319,13 @@ let
         sha512 = "1LdPYLAVpa27NOt6EqvuFO99s4XLB0c19Hw9xKSG6xQ1K82nUEyuWhzTQKb3KJ5Qx7qj14JlXZLfnEuL6A16Bw==";
       };
     };
-    "@textlint/module-interop-15.2.2" = {
+    "@textlint/module-interop-15.1.1" = {
       name = "_at_textlint_slash_module-interop";
       packageName = "@textlint/module-interop";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/module-interop/-/module-interop-15.2.2.tgz";
-        sha512 = "2rmNcWrcqhuR84Iio1WRzlc4tEoOMHd6T7urjtKNNefpTt1owrTJ9WuOe60yD3FrTW0J/R0ux5wxUbP/eaeFOA==";
+        url = "https://registry.npmjs.org/@textlint/module-interop/-/module-interop-15.1.1.tgz";
+        sha512 = "J+djF/OPkhdHEe2cAWYTmMGxgmbkamlF6g4TyklgZqz9SW0bsuJbSuMGHdIa2uQ8oyXdG9fBUVNd5cWZX8wtxw==";
       };
     };
     "@textlint/regexp-string-matcher-1.1.1" = {
@@ -328,13 +346,13 @@ let
         sha512 = "OXLD9XRxMhd3S0LWuPHpiARQOI7z9tCOs0FsynccW2lmyZzHHFJ9/eR6kuK9xF459Qf+740qI5h+/0cx+NljzA==";
       };
     };
-    "@textlint/resolver-15.2.2" = {
+    "@textlint/resolver-15.1.1" = {
       name = "_at_textlint_slash_resolver";
       packageName = "@textlint/resolver";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/resolver/-/resolver-15.2.2.tgz";
-        sha512 = "4hGWjmHt0y+5NAkoYZ8FvEkj8Mez9TqfbTm3BPjoV32cIfEixl2poTOgapn1rfm73905GSO3P1jiWjmgvii13Q==";
+        url = "https://registry.npmjs.org/@textlint/resolver/-/resolver-15.1.1.tgz";
+        sha512 = "W7wWaOGzDTfhnSdwYszAOo1VppbXI1f2IbqFWj2cQ2qQ394C7B+Se4AzO5h6ViJWj6h5rToY0k8sxMRYo0RreA==";
       };
     };
     "@textlint/source-code-fixer-13.4.1" = {
@@ -346,13 +364,13 @@ let
         sha512 = "Sl29f3Tpimp0uVE3ysyJBjxaFTVYLOXiJX14eWCQ/kC5ZhIXGosEbStzkP1n8Urso1rs1W4p/2UemVAm3NH2ng==";
       };
     };
-    "@textlint/source-code-fixer-15.2.2" = {
+    "@textlint/source-code-fixer-15.1.1" = {
       name = "_at_textlint_slash_source-code-fixer";
       packageName = "@textlint/source-code-fixer";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/source-code-fixer/-/source-code-fixer-15.2.2.tgz";
-        sha512 = "Cstr9wjK7toLmY2hhlZ3YcIh8o/gr7E5dpCd9IalNiMBedvvLYuOfhktKgUa4E7oFcGtl0leDPgx5ENDY25JDw==";
+        url = "https://registry.npmjs.org/@textlint/source-code-fixer/-/source-code-fixer-15.1.1.tgz";
+        sha512 = "4Z2/SdUquT60+3skCCQ4CwfNaWELMAr9arCAJxh3tADz0FJwPBuRsMfpb7Nue+rqbdK+iT8SBEadgnksFsY3KA==";
       };
     };
     "@textlint/text-to-ast-13.4.1" = {
@@ -364,13 +382,13 @@ let
         sha512 = "vCA7uMmbjRv06sEHPbwxTV5iS8OQedC5s7qwmXnWAn2LLWxg4Yp98mONPS1o4D5cPomzYyKNCSfbLwu6yJBUQA==";
       };
     };
-    "@textlint/text-to-ast-15.2.2" = {
+    "@textlint/text-to-ast-15.1.1" = {
       name = "_at_textlint_slash_text-to-ast";
       packageName = "@textlint/text-to-ast";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/text-to-ast/-/text-to-ast-15.2.2.tgz";
-        sha512 = "IphrojtJw3eW/1JMm/Hzc0dsDFALpEzjankABS6tIHMvB2O+2wejRDbDaqmgCgMCr+lGKoMNg5Xvlr5x9XRxww==";
+        url = "https://registry.npmjs.org/@textlint/text-to-ast/-/text-to-ast-15.1.1.tgz";
+        sha512 = "e6FT42OFCV2wivRXFE1TM+wWJEKLjMhuP/PBhWHhoQP4QbF+7jHM/dn9LK6GnaKDbG/TuhZk2d+N5X7YgOHfXQ==";
       };
     };
     "@textlint/textlint-plugin-markdown-13.4.1" = {
@@ -382,13 +400,13 @@ let
         sha512 = "OcLkFKYmbYeGJ0kj2487qcicCYTiE2vJLwfPcUDJrNoMYak5JtvHJfWffck8gON2mEM00DPkHH0UdxZpFjDfeg==";
       };
     };
-    "@textlint/textlint-plugin-markdown-15.2.2" = {
+    "@textlint/textlint-plugin-markdown-15.1.1" = {
       name = "_at_textlint_slash_textlint-plugin-markdown";
       packageName = "@textlint/textlint-plugin-markdown";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/textlint-plugin-markdown/-/textlint-plugin-markdown-15.2.2.tgz";
-        sha512 = "JzmHAtC2C4LOpJ/JD2YsqBZt9ej4khFFDI0d9E6P9y9AO/HOEv4GeT7aAjGGPG6AVO977aGiJ92EK9kTwlVnIQ==";
+        url = "https://registry.npmjs.org/@textlint/textlint-plugin-markdown/-/textlint-plugin-markdown-15.1.1.tgz";
+        sha512 = "pt7dA1yCcr2xdZumyMFkQ5kY4MrtV9dW1nbriCXPZfDbsZjLj+mpXM+nzOsrFe7YlBLXqI/tZQXfgjiB1/5W7g==";
       };
     };
     "@textlint/textlint-plugin-text-13.4.1" = {
@@ -400,13 +418,13 @@ let
         sha512 = "z0p5B8WUfTCIRmhjVHFfJv719oIElDDKWOIZei4CyYkfMGo0kq8fkrYBkUR6VZ6gofHwc+mwmIABdUf1rDHzYA==";
       };
     };
-    "@textlint/textlint-plugin-text-15.2.2" = {
+    "@textlint/textlint-plugin-text-15.1.1" = {
       name = "_at_textlint_slash_textlint-plugin-text";
       packageName = "@textlint/textlint-plugin-text";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/textlint-plugin-text/-/textlint-plugin-text-15.2.2.tgz";
-        sha512 = "bZYlxw8S9zsuJgx2EAR23RFyQ3JtyuIDUA3dbt5Sov2eo20LitNjDIqrQgDo85widbOD/6rG7VioNesV1/6HFw==";
+        url = "https://registry.npmjs.org/@textlint/textlint-plugin-text/-/textlint-plugin-text-15.1.1.tgz";
+        sha512 = "tRn18zlWXrjS1c52k0DurOJvr3qwajwQr2vkyisoX6X/HFK+Bf4V0T3McMh+cItSci+EloBO5mwAu4S1eS70/g==";
       };
     };
     "@textlint/types-13.4.1" = {
@@ -418,13 +436,13 @@ let
         sha512 = "1ApwQa31sFmiJeJ5yTNFqjbb2D1ICZvIDW0tFSM0OtmQCSDFNcKD3YrrwDBgSokZ6gWQq/FpNjlhi6iETUWt0Q==";
       };
     };
-    "@textlint/types-15.2.2" = {
+    "@textlint/types-15.1.1" = {
       name = "_at_textlint_slash_types";
       packageName = "@textlint/types";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/types/-/types-15.2.2.tgz";
-        sha512 = "X2BHGAR3yXJsCAjwYEDBIk9qUDWcH4pW61ISfmtejau+tVqKtnbbvEZnMTb6mWgKU1BvTmftd5DmB1XVDUtY3g==";
+        url = "https://registry.npmjs.org/@textlint/types/-/types-15.1.1.tgz";
+        sha512 = "UUxZxIt3hNWrN84kqn2yEjD4Cgt+aWa7NSBQOueOrh7QHSCJ3banvYiAw8P+rHhRQgLUl6nxZUmETmQVzIIRAQ==";
       };
     };
     "@textlint/utils-13.4.1" = {
@@ -436,13 +454,13 @@ let
         sha512 = "wX8RT1ejHAPTDmqlzngf0zI5kYoe3QvGDcj+skoTxSv+m/wOs/NyEr92d+ahCP32YqFYzXlqU7aDx2FkULKT+g==";
       };
     };
-    "@textlint/utils-15.2.2" = {
+    "@textlint/utils-15.1.1" = {
       name = "_at_textlint_slash_utils";
       packageName = "@textlint/utils";
-      version = "15.2.2";
+      version = "15.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@textlint/utils/-/utils-15.2.2.tgz";
-        sha512 = "uPCfBl2NF4tiXGjAE5DAwah0Bn/EFsgtXhDEIJV4hsSfBQBD8Guqnh8MvJj25fvZaQS+MTNGiEC6bFXtIMHuAg==";
+        url = "https://registry.npmjs.org/@textlint/utils/-/utils-15.1.1.tgz";
+        sha512 = "SAK+ZvVOIDbh+FpaKi4Ma8Rkv6XI2sW8VFtB6dGsxZ+ZEbo6QToWHNlrJ/pmTOfGmRB+yYwyzuWdqW7HIbJfRA==";
       };
     };
     "@types/mdast-3.0.15" = {
@@ -2434,6 +2452,15 @@ let
         sha512 = "G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==";
       };
     };
+    "minimist-1.2.8" = {
+      name = "minimist";
+      packageName = "minimist";
+      version = "1.2.8";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz";
+        sha512 = "2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==";
+      };
+    };
     "minipass-7.1.2" = {
       name = "minipass";
       packageName = "minipass";
@@ -2441,6 +2468,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/minipass/-/minipass-7.1.2.tgz";
         sha512 = "qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==";
+      };
+    };
+    "mkdirp-0.5.6" = {
+      name = "mkdirp";
+      packageName = "mkdirp";
+      version = "0.5.6";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz";
+        sha512 = "FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==";
       };
     };
     "moji-0.5.1" = {
@@ -3244,10 +3280,10 @@ let
         sha512 = "HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA==";
       };
     };
-    "string-width-cjs-4.2.3" = {
+    "string-width-cjs-npm:string-width@4.2.3" = {
       name = "string-width-cjs";
       packageName = "string-width-cjs";
-      version = "4.2.3";
+      version = "npm:string-width@4.2.3";
       src = fetchurl {
         url = "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz";
         sha512 = "wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==";
@@ -3298,10 +3334,10 @@ let
         sha512 = "iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==";
       };
     };
-    "strip-ansi-cjs-6.0.1" = {
+    "strip-ansi-cjs-npm:strip-ansi@6.0.1" = {
       name = "strip-ansi-cjs";
       packageName = "strip-ansi-cjs";
-      version = "6.0.1";
+      version = "npm:strip-ansi@6.0.1";
       src = fetchurl {
         url = "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz";
         sha512 = "Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==";
@@ -3341,6 +3377,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz";
         sha512 = "N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==";
+      };
+    };
+    "textlint-15.1.1" = {
+      name = "textlint";
+      packageName = "textlint";
+      version = "15.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint/-/textlint-15.1.1.tgz";
+        sha512 = "Agc4dVjwTFZn4EFvUP4o6SUnIxxzaVqgiV73658+ePP06Pr2EoD+WzG+LiMcz8vMg8Dfwuztxbt4fPeVkz2vkQ==";
       };
     };
     "textlint-rule-helper-2.5.0" = {
@@ -3595,6 +3640,24 @@ let
         sha512 = "AkxpzBILGB4YsXddzHx2xqpXmqMv5Yd+PQm4anUV+ADSJuwLP1Jd6yHf/LOtu9j3ps8K3XM9vQrXRK73z0bU3A==";
       };
     };
+    "textlint-rule-preset-ja-spacing-2.4.2" = {
+      name = "textlint-rule-preset-ja-spacing";
+      packageName = "textlint-rule-preset-ja-spacing";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-preset-ja-spacing/-/textlint-rule-preset-ja-spacing-2.4.2.tgz";
+        sha512 = "6jO1WU0RPpGyCwLRRFSFx2lxWQ1FokmUFL+gHdnhb3AUdt4cCzoYHMJA5k7F0xQqWyzjR8Lt4lTXgQt/5NK8cA==";
+      };
+    };
+    "textlint-rule-preset-ja-technical-writing-11.0.0" = {
+      name = "textlint-rule-preset-ja-technical-writing";
+      packageName = "textlint-rule-preset-ja-technical-writing";
+      version = "11.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-preset-ja-technical-writing/-/textlint-rule-preset-ja-technical-writing-11.0.0.tgz";
+        sha512 = "PtHtvYKxl9TBYCQG8hFxSHijUFcKABdFhwTFG5F0K4BLjuRixCtQza78icaUZTj+5FIFPH7UpivUa8UpjJmPmw==";
+      };
+    };
     "textlint-rule-preset-jtf-style-3.0.2" = {
       name = "textlint-rule-preset-jtf-style";
       packageName = "textlint-rule-preset-jtf-style";
@@ -3793,6 +3856,15 @@ let
         sha512 = "Sg7j110mtefBD+qunSLO1lqOEKdrwBFBrR6Qd8f4uwkhWNlbkaqwHse6e7QvD3AP/MNoJdEDLaf8OxYyoWgorQ==";
       };
     };
+    "unique-concat-0.2.2" = {
+      name = "unique-concat";
+      packageName = "unique-concat";
+      version = "0.2.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/unique-concat/-/unique-concat-0.2.2.tgz";
+        sha512 = "nFT3frbsvTa9rrc71FJApPqXF8oIhVHbX3IWgObQi1mF7WrW48Ys70daL7o4evZUtmUf6Qn6WK0LbHhyO0hpXw==";
+      };
+    };
     "unist-util-is-4.1.0" = {
       name = "unist-util-is";
       packageName = "unist-util-is";
@@ -3964,10 +4036,10 @@ let
         sha512 = "si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==";
       };
     };
-    "wrap-ansi-cjs-7.0.0" = {
+    "wrap-ansi-cjs-npm:wrap-ansi@7.0.0" = {
       name = "wrap-ansi-cjs";
       packageName = "wrap-ansi-cjs";
-      version = "7.0.0";
+      version = "npm:wrap-ansi@7.0.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz";
         sha512 = "YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==";
@@ -4037,21 +4109,19 @@ let
       };
     };
   };
-in
-{
-  textlint = nodeEnv.buildNodePackage {
-    name = "textlint";
-    packageName = "textlint";
-    version = "15.2.2";
-    src = fetchurl {
-      url = "https://registry.npmjs.org/textlint/-/textlint-15.2.2.tgz";
-      sha512 = "0V02Lvs7GJfXPNJgBVhayysW+9qe0bZVmyD8FrYzkW70xZcSoVK4Hdl6825wpQqn8KgdB171WNYlWq5FPEAPgg==";
-    };
+  args = {
+    name = "node-textlint-env";
+    packageName = "node-textlint-env";
+    version = "1.0.0";
+    src = ./.;
     dependencies = [
       sources."@azu/format-text-1.0.2"
       sources."@azu/style-format-1.0.1"
       sources."@babel/code-frame-7.27.1"
+      sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.27.1"
+      sources."@babel/parser-7.28.3"
+      sources."@babel/types-7.28.2"
       (sources."@isaacs/cliui-8.0.2" // {
         dependencies = [
           sources."ansi-regex-6.2.0"
@@ -4061,33 +4131,78 @@ in
         ];
       })
       sources."@keyv/serialize-1.1.0"
+      sources."@kvs/env-2.2.0"
+      sources."@kvs/indexeddb-2.1.4"
+      sources."@kvs/node-localstorage-2.2.0"
+      sources."@kvs/storage-2.1.4"
+      sources."@kvs/types-2.1.4"
       sources."@modelcontextprotocol/sdk-1.17.4"
+      sources."@pkgjs/parseargs-0.11.0"
+      sources."@textlint-rule/textlint-rule-no-invalid-control-character-3.0.0"
+      sources."@textlint-rule/textlint-rule-no-unmatched-pair-2.0.4"
       sources."@textlint/ast-node-types-15.2.2"
-      sources."@textlint/ast-tester-15.2.2"
-      sources."@textlint/ast-traverse-15.2.2"
-      sources."@textlint/config-loader-15.2.2"
-      sources."@textlint/feature-flag-15.2.2"
-      sources."@textlint/fixer-formatter-15.2.2"
-      sources."@textlint/kernel-15.2.2"
-      sources."@textlint/linter-formatter-15.2.2"
-      sources."@textlint/markdown-to-ast-15.2.2"
-      sources."@textlint/module-interop-15.2.2"
-      sources."@textlint/resolver-15.2.2"
-      sources."@textlint/source-code-fixer-15.2.2"
-      sources."@textlint/text-to-ast-15.2.2"
-      sources."@textlint/textlint-plugin-markdown-15.2.2"
-      sources."@textlint/textlint-plugin-text-15.2.2"
-      sources."@textlint/types-15.2.2"
-      sources."@textlint/utils-15.2.2"
+      (sources."@textlint/ast-tester-15.1.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-15.1.1"
+        ];
+      })
+      (sources."@textlint/ast-traverse-15.1.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-15.1.1"
+        ];
+      })
+      sources."@textlint/config-loader-15.1.1"
+      sources."@textlint/feature-flag-15.1.1"
+      sources."@textlint/fixer-formatter-15.1.1"
+      (sources."@textlint/kernel-15.1.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-15.1.1"
+        ];
+      })
+      sources."@textlint/linter-formatter-15.1.1"
+      (sources."@textlint/markdown-to-ast-15.1.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-15.1.1"
+        ];
+      })
+      sources."@textlint/module-interop-15.1.1"
+      (sources."@textlint/regexp-string-matcher-1.1.1" // {
+        dependencies = [
+          sources."escape-string-regexp-2.0.0"
+        ];
+      })
+      sources."@textlint/resolver-15.1.1"
+      sources."@textlint/source-code-fixer-15.1.1"
+      (sources."@textlint/text-to-ast-15.1.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-15.1.1"
+        ];
+      })
+      sources."@textlint/textlint-plugin-markdown-15.1.1"
+      sources."@textlint/textlint-plugin-text-15.1.1"
+      (sources."@textlint/types-15.1.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-15.1.1"
+        ];
+      })
+      sources."@textlint/utils-15.1.1"
       sources."@types/mdast-3.0.15"
       sources."@types/normalize-package-data-2.4.4"
       sources."@types/unist-2.0.11"
       sources."accepts-2.0.0"
       sources."ajv-6.12.6"
+      sources."analyze-desumasu-dearu-5.0.2"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-4.3.0"
+      sources."app-root-path-3.1.0"
       sources."argparse-1.0.10"
+      sources."array-buffer-byte-length-1.0.2"
+      sources."arraybuffer.prototype.slice-1.0.4"
+      sources."assign-symbols-1.0.0"
       sources."astral-regex-2.0.0"
+      sources."async-2.6.4"
+      sources."async-function-1.0.0"
+      sources."available-typed-arrays-1.0.7"
       sources."bail-1.0.5"
       sources."balanced-match-1.0.2"
       sources."body-parser-2.2.0"
@@ -4095,6 +4210,7 @@ in
       sources."brace-expansion-2.0.2"
       sources."bytes-3.1.2"
       sources."cacheable-1.10.4"
+      sources."call-bind-1.0.8"
       sources."call-bind-apply-helpers-1.0.2"
       sources."call-bound-1.0.4"
       sources."ccount-1.1.0"
@@ -4103,8 +4219,16 @@ in
       sources."character-entities-legacy-1.1.4"
       sources."character-reference-invalid-1.1.4"
       sources."charenc-0.0.2"
+      (sources."check-ends-with-period-3.0.2" // {
+        dependencies = [
+          sources."emoji-regex-10.4.0"
+        ];
+      })
+      sources."clone-regexp-2.2.0"
       sources."color-convert-2.0.1"
       sources."color-name-1.1.4"
+      sources."comma-separated-tokens-1.0.8"
+      sources."commandpost-1.4.0"
       sources."content-disposition-1.0.0"
       sources."content-type-1.0.5"
       sources."cookie-0.7.2"
@@ -4112,27 +4236,39 @@ in
       sources."cors-2.8.5"
       sources."cross-spawn-7.0.6"
       sources."crypt-0.0.2"
+      sources."data-view-buffer-1.0.2"
+      sources."data-view-byte-length-1.0.2"
+      sources."data-view-byte-offset-1.0.1"
       sources."debug-4.4.1"
       sources."deep-is-0.1.4"
+      sources."define-data-property-1.1.4"
+      sources."define-properties-1.2.1"
+      sources."define-property-2.0.2"
       sources."depd-2.0.0"
       sources."diff-5.2.0"
+      sources."doublearray-0.0.2"
       sources."dunder-proto-1.0.1"
       sources."eastasianwidth-0.2.0"
       sources."ee-first-1.1.1"
       sources."emoji-regex-8.0.0"
       sources."encodeurl-2.0.0"
+      sources."es-abstract-1.24.0"
       sources."es-define-property-1.0.1"
       sources."es-errors-1.3.0"
       sources."es-object-atoms-1.1.1"
+      sources."es-set-tostringtag-2.1.0"
+      sources."es-to-primitive-1.3.0"
       sources."escape-html-1.0.3"
       sources."escape-string-regexp-4.0.0"
       sources."esprima-4.0.1"
       sources."etag-1.8.1"
       sources."eventsource-3.0.7"
       sources."eventsource-parser-3.0.5"
+      sources."execall-2.0.0"
       sources."express-5.1.0"
       sources."express-rate-limit-7.5.1"
       sources."extend-3.0.2"
+      sources."extend-shallow-3.0.2"
       sources."fast-deep-equal-3.1.3"
       sources."fast-equals-4.0.3"
       sources."fast-json-stable-stringify-2.1.0"
@@ -4144,18 +4280,31 @@ in
       sources."find-up-simple-1.0.1"
       sources."flat-cache-6.1.13"
       sources."flatted-3.3.3"
+      sources."for-each-0.3.5"
       sources."foreground-child-3.3.1"
       sources."format-0.2.2"
       sources."forwarded-0.2.0"
       sources."fresh-2.0.0"
       sources."function-bind-1.1.2"
+      sources."function.prototype.name-1.1.8"
+      sources."functions-have-names-1.2.3"
       sources."get-intrinsic-1.3.0"
       sources."get-proto-1.0.1"
+      sources."get-symbol-description-1.1.0"
       sources."glob-10.4.5"
+      sources."globalthis-1.0.4"
       sources."gopd-1.2.0"
+      sources."graceful-fs-4.2.11"
+      sources."has-bigints-1.1.0"
       sources."has-flag-4.0.0"
+      sources."has-property-descriptors-1.0.2"
+      sources."has-proto-1.2.0"
       sources."has-symbols-1.1.0"
+      sources."has-tostringtag-1.0.2"
       sources."hasown-2.0.2"
+      sources."hast-util-from-parse5-5.0.3"
+      sources."hast-util-parse-selector-2.2.5"
+      sources."hastscript-5.1.2"
       sources."hookified-1.12.0"
       sources."hosted-git-info-7.0.2"
       (sources."http-errors-2.0.0" // {
@@ -4164,36 +4313,71 @@ in
         ];
       })
       sources."iconv-lite-0.6.3"
+      sources."imurmurhash-0.1.4"
       sources."index-to-position-1.1.0"
       sources."inherits-2.0.4"
+      sources."internal-slot-1.1.0"
       sources."ipaddr.js-1.9.1"
+      sources."is-accessor-descriptor-1.0.1"
       sources."is-alphabetical-1.0.4"
       sources."is-alphanumerical-1.0.4"
-      sources."is-buffer-2.0.5"
+      sources."is-array-buffer-3.0.5"
+      sources."is-async-function-2.1.1"
+      sources."is-bigint-1.1.0"
+      sources."is-boolean-object-1.2.2"
+      sources."is-buffer-1.1.6"
+      sources."is-callable-1.2.7"
+      sources."is-data-descriptor-1.0.1"
+      sources."is-data-view-1.0.2"
+      sources."is-date-object-1.1.0"
       sources."is-decimal-1.0.4"
+      sources."is-descriptor-1.0.3"
+      sources."is-extendable-1.0.1"
+      sources."is-finalizationregistry-1.1.1"
       sources."is-fullwidth-code-point-3.0.0"
+      sources."is-generator-function-1.1.0"
       sources."is-hexadecimal-1.0.4"
+      sources."is-map-2.0.3"
+      sources."is-negative-zero-2.0.3"
+      sources."is-number-object-1.1.1"
       sources."is-plain-obj-2.1.0"
+      sources."is-plain-object-2.0.4"
       sources."is-promise-4.0.0"
+      sources."is-regex-1.2.1"
+      sources."is-regexp-2.1.0"
+      sources."is-set-2.0.3"
+      sources."is-shared-array-buffer-1.0.4"
+      sources."is-string-1.1.1"
+      sources."is-symbol-1.1.1"
+      sources."is-typed-array-1.1.15"
+      sources."is-weakmap-2.0.2"
+      sources."is-weakref-1.1.1"
+      sources."is-weakset-2.0.4"
+      sources."isarray-2.0.5"
       sources."isexe-2.0.0"
+      sources."isobject-3.0.1"
       sources."jackspeak-3.4.3"
+      sources."japanese-numerals-to-number-1.0.2"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."json-schema-traverse-0.4.1"
       sources."json5-2.2.3"
       sources."keyv-5.5.0"
+      sources."kuromoji-0.1.2"
+      sources."kuromojin-3.0.1"
       sources."levn-0.4.1"
       sources."lodash-4.17.21"
+      sources."lodash.sortby-4.7.0"
       sources."lodash.truncate-4.4.2"
+      sources."lodash.uniq-4.5.0"
+      sources."lodash.uniqwith-4.5.0"
       sources."longest-streak-2.0.4"
       sources."lru-cache-10.4.3"
+      sources."lru_map-0.4.1"
       sources."markdown-table-2.0.0"
+      sources."match-index-1.0.3"
       sources."math-intrinsics-1.1.0"
-      (sources."md5-2.3.0" // {
-        dependencies = [
-          sources."is-buffer-1.1.6"
-        ];
-      })
+      sources."md5-2.3.0"
       sources."mdast-util-find-and-replace-1.1.1"
       sources."mdast-util-footnote-0.1.7"
       sources."mdast-util-from-markdown-0.8.5"
@@ -4219,19 +4403,34 @@ in
       sources."mime-db-1.54.0"
       sources."mime-types-3.0.1"
       sources."minimatch-9.0.5"
+      sources."minimist-1.2.8"
       sources."minipass-7.1.2"
+      sources."mkdirp-0.5.6"
+      (sources."moji-0.5.1" // {
+        dependencies = [
+          sources."object-assign-3.0.0"
+        ];
+      })
+      sources."morpheme-match-2.0.4"
+      sources."morpheme-match-all-2.0.5"
+      sources."morpheme-match-textlint-2.0.6"
       sources."ms-2.1.3"
       sources."negotiator-1.0.0"
       sources."neotraverse-0.6.18"
+      sources."node-localstorage-2.2.1"
       sources."normalize-package-data-6.0.2"
       sources."object-assign-4.1.1"
       sources."object-inspect-1.13.4"
+      sources."object-keys-1.1.1"
+      sources."object.assign-4.1.7"
       sources."on-finished-2.4.1"
       sources."once-1.4.0"
       sources."optionator-0.9.4"
+      sources."own-keys-1.0.1"
       sources."package-json-from-dist-1.0.1"
       sources."parse-entities-2.0.0"
       sources."parse-json-8.3.0"
+      sources."parse5-5.1.1"
       sources."parseurl-1.3.3"
       sources."path-key-3.1.1"
       sources."path-scurry-1.11.1"
@@ -4240,7 +4439,14 @@ in
       sources."picocolors-1.1.1"
       sources."pkce-challenge-5.0.0"
       sources."pluralize-2.0.0"
+      sources."possible-typed-array-names-1.1.0"
       sources."prelude-ls-1.2.1"
+      (sources."prh-5.4.4" // {
+        dependencies = [
+          sources."diff-4.0.2"
+        ];
+      })
+      sources."property-information-5.6.0"
       sources."proxy-addr-2.0.7"
       sources."punycode-2.3.1"
       sources."qs-6.14.0"
@@ -4254,285 +4460,6 @@ in
       })
       sources."read-package-up-11.0.0"
       sources."read-pkg-9.0.1"
-      sources."remark-footnotes-3.0.0"
-      sources."remark-frontmatter-3.0.0"
-      sources."remark-gfm-1.0.0"
-      sources."remark-parse-9.0.0"
-      sources."repeat-string-1.6.1"
-      sources."require-from-string-2.0.2"
-      sources."router-2.2.0"
-      sources."safe-buffer-5.2.1"
-      sources."safer-buffer-2.1.2"
-      sources."semver-7.7.2"
-      sources."send-1.2.0"
-      sources."serve-static-2.2.0"
-      sources."setprototypeof-1.2.0"
-      sources."shebang-command-2.0.0"
-      sources."shebang-regex-3.0.0"
-      sources."side-channel-1.1.0"
-      sources."side-channel-list-1.0.0"
-      sources."side-channel-map-1.0.1"
-      sources."side-channel-weakmap-1.0.2"
-      sources."signal-exit-4.1.0"
-      sources."slice-ansi-4.0.0"
-      sources."spdx-correct-3.2.0"
-      sources."spdx-exceptions-2.5.0"
-      sources."spdx-expression-parse-3.0.1"
-      sources."spdx-license-ids-3.0.22"
-      sources."sprintf-js-1.0.3"
-      sources."statuses-2.0.2"
-      sources."string-width-4.2.3"
-      sources."string-width-cjs-4.2.3"
-      sources."strip-ansi-6.0.1"
-      sources."strip-ansi-cjs-6.0.1"
-      sources."structured-source-4.0.0"
-      sources."supports-color-7.2.0"
-      (sources."table-6.9.0" // {
-        dependencies = [
-          sources."ajv-8.17.1"
-          sources."json-schema-traverse-1.0.0"
-        ];
-      })
-      sources."text-table-0.2.0"
-      sources."toidentifier-1.0.1"
-      sources."trough-1.0.5"
-      sources."type-check-0.4.0"
-      sources."type-fest-4.41.0"
-      sources."type-is-2.0.1"
-      sources."unicorn-magic-0.1.0"
-      sources."unified-9.2.2"
-      sources."unist-util-is-4.1.0"
-      sources."unist-util-stringify-position-2.0.3"
-      sources."unist-util-visit-parents-3.1.1"
-      sources."unpipe-1.0.0"
-      sources."uri-js-4.4.1"
-      sources."validate-npm-package-license-3.0.4"
-      sources."vary-1.1.2"
-      sources."vfile-4.2.1"
-      sources."vfile-message-2.0.4"
-      sources."which-2.0.2"
-      sources."word-wrap-1.2.5"
-      (sources."wrap-ansi-8.1.0" // {
-        dependencies = [
-          sources."ansi-regex-6.2.0"
-          sources."ansi-styles-6.2.1"
-          sources."emoji-regex-9.2.2"
-          sources."string-width-5.1.2"
-          sources."strip-ansi-7.1.0"
-        ];
-      })
-      sources."wrap-ansi-cjs-7.0.0"
-      sources."wrappy-1.0.2"
-      sources."zod-3.25.76"
-      sources."zod-to-json-schema-3.24.6"
-      sources."zwitch-1.0.5"
-    ];
-    buildInputs = globalBuildInputs;
-    meta = {
-      description = "The pluggable linting tool for natural language.";
-      homepage = "https://github.com/textlint/textlint/";
-      license = "MIT";
-    };
-    production = true;
-    bypassCache = true;
-    reconstructLock = true;
-  };
-  "textlint-rule-preset-ja-technical-writing-12.0.2" = nodeEnv.buildNodePackage {
-    name = "textlint-rule-preset-ja-technical-writing";
-    packageName = "textlint-rule-preset-ja-technical-writing";
-    version = "12.0.2";
-    src = fetchurl {
-      url = "https://registry.npmjs.org/textlint-rule-preset-ja-technical-writing/-/textlint-rule-preset-ja-technical-writing-12.0.2.tgz";
-      sha512 = "BBVY6oA5V799k5wRfP+gCpDHsp6vWjWX2UT+/KLlAFFsNdmRB8Z6qyOnqiOjfzmLGIRgoMcPI1dXj5upOqnD6Q==";
-    };
-    dependencies = [
-      sources."@babel/helper-string-parser-7.27.1"
-      sources."@babel/helper-validator-identifier-7.27.1"
-      sources."@babel/parser-7.28.3"
-      sources."@babel/types-7.28.2"
-      sources."@kvs/env-2.2.0"
-      sources."@kvs/indexeddb-2.1.4"
-      sources."@kvs/node-localstorage-2.2.0"
-      sources."@kvs/storage-2.1.4"
-      sources."@kvs/types-2.1.4"
-      sources."@textlint-rule/textlint-rule-no-invalid-control-character-3.0.0"
-      sources."@textlint-rule/textlint-rule-no-unmatched-pair-2.0.4"
-      sources."@textlint/ast-node-types-13.4.1"
-      sources."@textlint/ast-tester-13.4.1"
-      sources."@textlint/ast-traverse-13.4.1"
-      sources."@textlint/feature-flag-13.4.1"
-      sources."@textlint/kernel-13.4.1"
-      (sources."@textlint/markdown-to-ast-13.4.1" // {
-        dependencies = [
-          sources."unified-9.2.2"
-        ];
-      })
-      sources."@textlint/module-interop-14.8.4"
-      sources."@textlint/regexp-string-matcher-1.1.1"
-      sources."@textlint/source-code-fixer-13.4.1"
-      sources."@textlint/text-to-ast-13.4.1"
-      sources."@textlint/textlint-plugin-markdown-13.4.1"
-      sources."@textlint/textlint-plugin-text-13.4.1"
-      sources."@textlint/types-13.4.1"
-      sources."@textlint/utils-13.4.1"
-      sources."@types/mdast-3.0.15"
-      sources."@types/unist-2.0.11"
-      sources."analyze-desumasu-dearu-5.0.2"
-      sources."app-root-path-3.1.0"
-      sources."argparse-1.0.10"
-      sources."array-buffer-byte-length-1.0.2"
-      sources."arraybuffer.prototype.slice-1.0.4"
-      sources."assign-symbols-1.0.0"
-      sources."async-2.6.4"
-      sources."async-function-1.0.0"
-      sources."available-typed-arrays-1.0.7"
-      sources."bail-1.0.5"
-      sources."boundary-2.0.0"
-      sources."call-bind-1.0.8"
-      sources."call-bind-apply-helpers-1.0.2"
-      sources."call-bound-1.0.4"
-      sources."ccount-1.1.0"
-      sources."character-entities-1.2.4"
-      sources."character-entities-legacy-1.1.4"
-      sources."character-reference-invalid-1.1.4"
-      sources."check-ends-with-period-3.0.2"
-      sources."clone-regexp-2.2.0"
-      sources."comma-separated-tokens-1.0.8"
-      sources."commandpost-1.4.0"
-      sources."data-view-buffer-1.0.2"
-      sources."data-view-byte-length-1.0.2"
-      sources."data-view-byte-offset-1.0.1"
-      sources."debug-4.4.1"
-      sources."define-data-property-1.1.4"
-      sources."define-properties-1.2.1"
-      sources."define-property-2.0.2"
-      sources."diff-4.0.2"
-      sources."doublearray-0.0.2"
-      sources."dunder-proto-1.0.1"
-      sources."emoji-regex-10.4.0"
-      sources."es-abstract-1.24.0"
-      sources."es-define-property-1.0.1"
-      sources."es-errors-1.3.0"
-      sources."es-object-atoms-1.1.1"
-      sources."es-set-tostringtag-2.1.0"
-      sources."es-to-primitive-1.3.0"
-      sources."escape-string-regexp-2.0.0"
-      sources."esprima-4.0.1"
-      sources."execall-2.0.0"
-      sources."extend-3.0.2"
-      sources."extend-shallow-3.0.2"
-      sources."fast-equals-4.0.3"
-      sources."fault-1.0.4"
-      sources."for-each-0.3.5"
-      sources."format-0.2.2"
-      sources."function-bind-1.1.2"
-      sources."function.prototype.name-1.1.8"
-      sources."functions-have-names-1.2.3"
-      sources."get-intrinsic-1.3.0"
-      sources."get-proto-1.0.1"
-      sources."get-symbol-description-1.1.0"
-      sources."globalthis-1.0.4"
-      sources."gopd-1.2.0"
-      sources."graceful-fs-4.2.11"
-      sources."has-bigints-1.1.0"
-      sources."has-property-descriptors-1.0.2"
-      sources."has-proto-1.2.0"
-      sources."has-symbols-1.1.0"
-      sources."has-tostringtag-1.0.2"
-      sources."hasown-2.0.2"
-      sources."hast-util-from-parse5-5.0.3"
-      sources."hast-util-parse-selector-2.2.5"
-      sources."hastscript-5.1.2"
-      sources."imurmurhash-0.1.4"
-      sources."internal-slot-1.1.0"
-      sources."is-accessor-descriptor-1.0.1"
-      sources."is-alphabetical-1.0.4"
-      sources."is-alphanumerical-1.0.4"
-      sources."is-array-buffer-3.0.5"
-      sources."is-async-function-2.1.1"
-      sources."is-bigint-1.1.0"
-      sources."is-boolean-object-1.2.2"
-      sources."is-buffer-2.0.5"
-      sources."is-callable-1.2.7"
-      sources."is-data-descriptor-1.0.1"
-      sources."is-data-view-1.0.2"
-      sources."is-date-object-1.1.0"
-      sources."is-decimal-1.0.4"
-      sources."is-descriptor-1.0.3"
-      sources."is-extendable-1.0.1"
-      sources."is-finalizationregistry-1.1.1"
-      sources."is-generator-function-1.1.0"
-      sources."is-hexadecimal-1.0.4"
-      sources."is-map-2.0.3"
-      sources."is-negative-zero-2.0.3"
-      sources."is-number-object-1.1.1"
-      sources."is-plain-obj-2.1.0"
-      sources."is-plain-object-2.0.4"
-      sources."is-regex-1.2.1"
-      sources."is-regexp-2.1.0"
-      sources."is-set-2.0.3"
-      sources."is-shared-array-buffer-1.0.4"
-      sources."is-string-1.1.1"
-      sources."is-symbol-1.1.1"
-      sources."is-typed-array-1.1.15"
-      sources."is-weakmap-2.0.2"
-      sources."is-weakref-1.1.1"
-      sources."is-weakset-2.0.4"
-      sources."isarray-2.0.5"
-      sources."isobject-3.0.1"
-      sources."japanese-numerals-to-number-1.0.2"
-      sources."js-yaml-3.14.1"
-      sources."kuromoji-0.1.2"
-      sources."kuromojin-3.0.1"
-      sources."lodash-4.17.21"
-      sources."lodash.sortby-4.7.0"
-      sources."lodash.uniq-4.5.0"
-      sources."lodash.uniqwith-4.5.0"
-      sources."longest-streak-2.0.4"
-      sources."lru_map-0.4.1"
-      sources."markdown-table-2.0.0"
-      sources."match-index-1.0.3"
-      sources."math-intrinsics-1.1.0"
-      (sources."mdast-util-find-and-replace-1.1.1" // {
-        dependencies = [
-          sources."escape-string-regexp-4.0.0"
-        ];
-      })
-      sources."mdast-util-footnote-0.1.7"
-      sources."mdast-util-from-markdown-0.8.5"
-      sources."mdast-util-frontmatter-0.2.0"
-      sources."mdast-util-gfm-0.1.2"
-      sources."mdast-util-gfm-autolink-literal-0.1.3"
-      sources."mdast-util-gfm-strikethrough-0.2.3"
-      sources."mdast-util-gfm-table-0.1.6"
-      sources."mdast-util-gfm-task-list-item-0.1.6"
-      sources."mdast-util-to-markdown-0.6.5"
-      sources."mdast-util-to-string-2.0.0"
-      sources."micromark-2.11.4"
-      sources."micromark-extension-footnote-0.3.2"
-      sources."micromark-extension-frontmatter-0.2.2"
-      sources."micromark-extension-gfm-0.3.3"
-      sources."micromark-extension-gfm-autolink-literal-0.5.7"
-      sources."micromark-extension-gfm-strikethrough-0.6.5"
-      sources."micromark-extension-gfm-table-0.4.3"
-      sources."micromark-extension-gfm-tagfilter-0.3.0"
-      sources."micromark-extension-gfm-task-list-item-0.3.3"
-      sources."moji-0.5.1"
-      sources."morpheme-match-2.0.4"
-      sources."morpheme-match-all-2.0.5"
-      sources."morpheme-match-textlint-2.0.6"
-      sources."ms-2.1.3"
-      sources."node-localstorage-2.2.1"
-      sources."object-assign-3.0.0"
-      sources."object-inspect-1.13.4"
-      sources."object-keys-1.1.1"
-      sources."object.assign-4.1.7"
-      sources."own-keys-1.0.1"
-      sources."parse-entities-2.0.0"
-      sources."parse5-5.1.1"
-      sources."possible-typed-array-names-1.1.0"
-      sources."prh-5.4.4"
-      sources."property-information-5.6.0"
       sources."reflect.getprototypeof-1.0.10"
       sources."regex-not-1.0.2"
       sources."regexp.prototype.flags-1.5.4"
@@ -4543,37 +4470,83 @@ in
       sources."remark-gfm-1.0.0"
       sources."remark-parse-9.0.0"
       sources."repeat-string-1.6.1"
+      sources."require-from-string-2.0.2"
       sources."ret-0.1.15"
+      sources."router-2.2.0"
       sources."safe-array-concat-1.1.3"
+      sources."safe-buffer-5.2.1"
       sources."safe-push-apply-1.0.0"
       sources."safe-regex-1.1.0"
       sources."safe-regex-test-1.1.0"
-      sources."sentence-splitter-5.0.0"
+      sources."safer-buffer-2.1.2"
+      sources."semver-7.7.2"
+      sources."send-1.2.0"
+      (sources."sentence-splitter-5.0.0" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-13.4.1"
+        ];
+      })
+      sources."serve-static-2.2.0"
       sources."set-function-length-1.2.2"
       sources."set-function-name-2.0.2"
       sources."set-proto-1.0.0"
+      sources."setprototypeof-1.2.0"
+      sources."shebang-command-2.0.0"
+      sources."shebang-regex-3.0.0"
       sources."side-channel-1.1.0"
       sources."side-channel-list-1.0.0"
       sources."side-channel-map-1.0.1"
       sources."side-channel-weakmap-1.0.2"
+      sources."signal-exit-4.1.0"
+      sources."slice-ansi-4.0.0"
       sources."slide-1.1.6"
       sources."space-separated-tokens-1.1.5"
+      sources."spdx-correct-3.2.0"
+      sources."spdx-exceptions-2.5.0"
+      sources."spdx-expression-parse-3.0.1"
+      sources."spdx-license-ids-3.0.22"
       sources."sprintf-js-1.0.3"
+      sources."statuses-2.0.2"
       sources."stop-iteration-iterator-1.1.0"
+      sources."string-width-4.2.3"
+      sources."string-width-cjs-npm:string-width@4.2.3"
       sources."string.prototype.trim-1.2.10"
       sources."string.prototype.trimend-1.0.9"
       sources."string.prototype.trimstart-1.0.8"
+      sources."strip-ansi-6.0.1"
+      sources."strip-ansi-cjs-npm:strip-ansi@6.0.1"
       sources."structured-source-4.0.0"
-      (sources."textlint-rule-helper-2.5.0" // {
+      sources."supports-color-7.2.0"
+      (sources."table-6.9.0" // {
         dependencies = [
-          sources."@textlint/ast-node-types-15.2.2"
+          sources."ajv-8.17.1"
+          sources."json-schema-traverse-1.0.0"
         ];
       })
+      sources."text-table-0.2.0"
+      (sources."textlint-15.1.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-15.1.1"
+        ];
+      })
+      sources."textlint-rule-helper-2.5.0"
+      sources."textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.4.3"
       sources."textlint-rule-ja-no-abusage-3.0.0"
       sources."textlint-rule-ja-no-mixed-period-3.0.1"
       sources."textlint-rule-ja-no-redundant-expression-4.0.1"
+      sources."textlint-rule-ja-no-space-around-parentheses-2.4.2"
+      sources."textlint-rule-ja-no-space-between-full-width-2.4.2"
       sources."textlint-rule-ja-no-successive-word-2.0.1"
       sources."textlint-rule-ja-no-weak-phrase-2.0.0"
+      sources."textlint-rule-ja-space-after-exclamation-2.4.2"
+      sources."textlint-rule-ja-space-after-question-2.4.2"
+      sources."textlint-rule-ja-space-around-code-2.4.2"
+      sources."textlint-rule-ja-space-around-link-2.4.2"
+      (sources."textlint-rule-ja-space-between-half-and-full-width-2.4.2" // {
+        dependencies = [
+          sources."@textlint/regexp-string-matcher-2.0.2"
+        ];
+      })
       sources."textlint-rule-ja-unnatural-alphabet-2.0.1"
       sources."textlint-rule-max-comma-4.0.0"
       sources."textlint-rule-max-kanji-continuous-len-1.1.1"
@@ -4588,6 +4561,12 @@ in
       sources."textlint-rule-no-mix-dearu-desumasu-6.0.4"
       sources."textlint-rule-no-nfd-2.0.2"
       sources."textlint-rule-no-zero-width-spaces-1.0.1"
+      sources."textlint-rule-preset-ja-spacing-2.4.2"
+      (sources."textlint-rule-preset-ja-technical-writing-11.0.0" // {
+        dependencies = [
+          sources."@textlint/module-interop-14.8.4"
+        ];
+      })
       (sources."textlint-rule-preset-jtf-style-3.0.2" // {
         dependencies = [
           sources."analyze-desumasu-dearu-2.1.5"
@@ -4598,110 +4577,114 @@ in
       (sources."textlint-rule-sentence-length-5.2.0" // {
         dependencies = [
           sources."@textlint/regexp-string-matcher-2.0.2"
-          sources."escape-string-regexp-4.0.0"
         ];
       })
-      sources."textlint-tester-13.4.1"
-      sources."textlint-util-to-string-3.3.4"
+      (sources."textlint-tester-13.4.1" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-13.4.1"
+          sources."@textlint/ast-tester-13.4.1"
+          sources."@textlint/ast-traverse-13.4.1"
+          sources."@textlint/feature-flag-13.4.1"
+          sources."@textlint/kernel-13.4.1"
+          sources."@textlint/markdown-to-ast-13.4.1"
+          sources."@textlint/source-code-fixer-13.4.1"
+          sources."@textlint/text-to-ast-13.4.1"
+          sources."@textlint/textlint-plugin-markdown-13.4.1"
+          sources."@textlint/textlint-plugin-text-13.4.1"
+          sources."@textlint/types-13.4.1"
+          sources."@textlint/utils-13.4.1"
+        ];
+      })
+      (sources."textlint-util-to-string-3.3.4" // {
+        dependencies = [
+          sources."@textlint/ast-node-types-13.4.1"
+          sources."unified-8.4.2"
+        ];
+      })
       sources."to-regex-3.0.2"
+      sources."toidentifier-1.0.1"
       sources."traverse-0.6.11"
       sources."trough-1.0.5"
+      sources."type-check-0.4.0"
+      sources."type-fest-4.41.0"
+      sources."type-is-2.0.1"
       sources."typed-array-buffer-1.0.3"
       sources."typed-array-byte-length-1.0.3"
       sources."typed-array-byte-offset-1.0.4"
       sources."typed-array-length-1.0.7"
       sources."typedarray.prototype.slice-1.0.5"
       sources."unbox-primitive-1.1.0"
-      sources."unified-8.4.2"
+      sources."unicorn-magic-0.1.0"
+      (sources."unified-9.2.2" // {
+        dependencies = [
+          sources."is-buffer-2.0.5"
+        ];
+      })
+      sources."unique-concat-0.2.2"
       sources."unist-util-is-4.1.0"
       sources."unist-util-stringify-position-2.0.3"
       sources."unist-util-visit-2.0.3"
       sources."unist-util-visit-parents-3.1.1"
+      sources."unpipe-1.0.0"
       sources."untildify-3.0.3"
-      sources."vfile-4.2.1"
+      sources."uri-js-4.4.1"
+      sources."validate-npm-package-license-3.0.4"
+      sources."vary-1.1.2"
+      (sources."vfile-4.2.1" // {
+        dependencies = [
+          sources."is-buffer-2.0.5"
+        ];
+      })
       sources."vfile-message-2.0.4"
       sources."web-namespaces-1.1.4"
+      sources."which-2.0.2"
       sources."which-boxed-primitive-1.1.1"
       sources."which-builtin-type-1.2.1"
       sources."which-collection-1.0.2"
       sources."which-typed-array-1.1.19"
+      sources."word-wrap-1.2.5"
+      (sources."wrap-ansi-8.1.0" // {
+        dependencies = [
+          sources."ansi-regex-6.2.0"
+          sources."ansi-styles-6.2.1"
+          sources."emoji-regex-9.2.2"
+          sources."string-width-5.1.2"
+          sources."strip-ansi-7.1.0"
+        ];
+      })
+      sources."wrap-ansi-cjs-npm:wrap-ansi@7.0.0"
+      sources."wrappy-1.0.2"
       sources."write-file-atomic-1.3.4"
       sources."xtend-4.0.2"
       sources."zlibjs-0.3.1"
+      sources."zod-3.25.76"
+      sources."zod-to-json-schema-3.24.6"
       sources."zwitch-1.0.5"
     ];
     buildInputs = globalBuildInputs;
     meta = {
-      description = "技術文書向けのtextlintルールプリセット";
-      homepage = "https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing";
-      license = "MIT";
     };
-    production = true;
+    production = false;
     bypassCache = true;
-    reconstructLock = true;
+    reconstructLock = false;
   };
-  "textlint-rule-preset-ja-spacing-2.4.3" = nodeEnv.buildNodePackage {
-    name = "textlint-rule-preset-ja-spacing";
-    packageName = "textlint-rule-preset-ja-spacing";
-    version = "2.4.3";
-    src = fetchurl {
-      url = "https://registry.npmjs.org/textlint-rule-preset-ja-spacing/-/textlint-rule-preset-ja-spacing-2.4.3.tgz";
-      sha512 = "WAiWY9TOE8/bRdl14XJdjkPQcV0hLS4O+PCUYU1yxXmJhZ8V3ciw2GYqpA9GL73qAxL25UD6mkf1yfz6aJ4qSA==";
+in
+{
+  args = args;
+  sources = sources;
+  tarball = nodeEnv.buildNodeSourceDist args;
+  package = nodeEnv.buildNodePackage args;
+  shell = nodeEnv.buildNodeShell args;
+  nodeDependencies = nodeEnv.buildNodeDependencies (lib.overrideExisting args {
+    src = stdenv.mkDerivation {
+      name = args.name + "-package-json";
+      src = nix-gitignore.gitignoreSourcePure [
+        "*"
+        "!package.json"
+        "!package-lock.json"
+      ] args.src;
+      dontBuild = true;
+      installPhase = "mkdir -p $out; cp -r ./* $out;";
     };
-    dependencies = [
-      sources."@textlint/ast-node-types-15.2.2"
-      sources."@textlint/regexp-string-matcher-2.0.2"
-      sources."@types/unist-2.0.11"
-      sources."boundary-2.0.0"
-      sources."call-bind-1.0.8"
-      sources."call-bind-apply-helpers-1.0.2"
-      sources."define-data-property-1.1.4"
-      sources."define-properties-1.2.1"
-      sources."dunder-proto-1.0.1"
-      sources."es-define-property-1.0.1"
-      sources."es-errors-1.3.0"
-      sources."es-object-atoms-1.1.1"
-      sources."escape-string-regexp-4.0.0"
-      sources."function-bind-1.1.2"
-      sources."functions-have-names-1.2.3"
-      sources."get-intrinsic-1.3.0"
-      sources."get-proto-1.0.1"
-      sources."gopd-1.2.0"
-      sources."has-property-descriptors-1.0.2"
-      sources."has-symbols-1.1.0"
-      sources."hasown-2.0.2"
-      sources."lodash.sortby-4.7.0"
-      sources."lodash.uniq-4.5.0"
-      sources."lodash.uniqwith-4.5.0"
-      sources."match-index-1.0.3"
-      sources."math-intrinsics-1.1.0"
-      sources."object-keys-1.1.1"
-      sources."regexp.prototype.flags-1.5.4"
-      sources."regx-1.0.4"
-      sources."set-function-length-1.2.2"
-      sources."set-function-name-2.0.2"
-      sources."structured-source-4.0.0"
-      sources."textlint-rule-helper-2.5.0"
-      sources."textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.4.3"
-      sources."textlint-rule-ja-no-space-around-parentheses-2.4.2"
-      sources."textlint-rule-ja-no-space-between-full-width-2.4.2"
-      sources."textlint-rule-ja-space-after-exclamation-2.4.2"
-      sources."textlint-rule-ja-space-after-question-2.4.2"
-      sources."textlint-rule-ja-space-around-code-2.4.2"
-      sources."textlint-rule-ja-space-around-link-2.4.2"
-      sources."textlint-rule-ja-space-between-half-and-full-width-2.4.2"
-      sources."unist-util-is-4.1.0"
-      sources."unist-util-visit-2.0.3"
-      sources."unist-util-visit-parents-3.1.1"
-    ];
-    buildInputs = globalBuildInputs;
-    meta = {
-      description = "textlint-rule-preset-ja-spacingのルールプリセット";
-      homepage = "https://github.com/textlint-ja/textlint-rule-preset-ja-spacing";
-      license = "MIT";
-    };
-    production = true;
-    bypassCache = true;
-    reconstructLock = true;
-  };
+  });
 }

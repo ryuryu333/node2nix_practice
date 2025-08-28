@@ -16,13 +16,12 @@
           inherit pkgs system;
           nodejs = pkgs.nodejs_24;
         };
+        inherit (my-node-pkgs) nodeDependencies;
       in
       {
         devShells.default = pkgs.mkShell {
           packages = [
-            my-node-pkgs.textlint
-            my-node-pkgs."textlint-rule-preset-ja-technical-writing-12.0.2"
-            my-node-pkgs."textlint-rule-preset-ja-spacing-2.4.3"
+            nodeDependencies            
           ];
         };
       }

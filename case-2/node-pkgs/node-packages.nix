@@ -3370,6 +3370,15 @@ let
         sha512 = "QIbFPtyqLy0g5BJn8mryk9iHzGYicNaFIpLFPiEnb4RXxrEGeQ2W2aARQ9yEXLIAqo+OwK4ndWBAWkbgJEPzTQ==";
       };
     };
+    "textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.4.3" = {
+      name = "textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana";
+      packageName = "textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana";
+      version = "2.4.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana/-/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.4.3.tgz";
+        sha512 = "xIpEAgpaPTnavzCMLcSB/tlZ3Tq9paclyyMEgAQxkM9adv8TrwddZ+Ys+BSd4zjuVa94NED0bajYWtahSjZ53g==";
+      };
+    };
     "textlint-rule-ja-no-abusage-3.0.0" = {
       name = "textlint-rule-ja-no-abusage";
       packageName = "textlint-rule-ja-no-abusage";
@@ -3397,6 +3406,24 @@ let
         sha512 = "r8Qe6S7u9N97wD0gcrASqBUdZs5CMEVlgc8Ul+D2NQFiOi1BoseOMo5I9yUsEZMAL46yh/eaw9+EWz6IDlPWeA==";
       };
     };
+    "textlint-rule-ja-no-space-around-parentheses-2.4.2" = {
+      name = "textlint-rule-ja-no-space-around-parentheses";
+      packageName = "textlint-rule-ja-no-space-around-parentheses";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-no-space-around-parentheses/-/textlint-rule-ja-no-space-around-parentheses-2.4.2.tgz";
+        sha512 = "DmmWEKu2hFJs/C4Ruxm/Zkp5gc9W+8kTgUULx54J00MJyJgLWm0XY9BH3OdN66+4+3BFutvxzCLU9y/M1+Dx7w==";
+      };
+    };
+    "textlint-rule-ja-no-space-between-full-width-2.4.2" = {
+      name = "textlint-rule-ja-no-space-between-full-width";
+      packageName = "textlint-rule-ja-no-space-between-full-width";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-no-space-between-full-width/-/textlint-rule-ja-no-space-between-full-width-2.4.2.tgz";
+        sha512 = "yDiZrJYX2cVO85tLw+ojUntky44ijEfIX2sWinIEN0IdYMCINjYwmgRYFmnqwQ+MZyo+foAt2vLUZtaSZlk/Lw==";
+      };
+    };
     "textlint-rule-ja-no-successive-word-2.0.1" = {
       name = "textlint-rule-ja-no-successive-word";
       packageName = "textlint-rule-ja-no-successive-word";
@@ -3413,6 +3440,51 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/textlint-rule-ja-no-weak-phrase/-/textlint-rule-ja-no-weak-phrase-2.0.0.tgz";
         sha512 = "jZ1/3VnE8Bz/p0CCe/+BVOmWE1cZwpDkjKb6hnq39nGk3OD4XPW7biYavK/4/mZhk4bh2+Vtu1xV26lg8d+vBw==";
+      };
+    };
+    "textlint-rule-ja-space-after-exclamation-2.4.2" = {
+      name = "textlint-rule-ja-space-after-exclamation";
+      packageName = "textlint-rule-ja-space-after-exclamation";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-space-after-exclamation/-/textlint-rule-ja-space-after-exclamation-2.4.2.tgz";
+        sha512 = "3qH0aIG48MrA8qhcljGSGxPmvrrmOQsP/kTfj8SGDKdkBUs05z1x1bgw106RVNVv1enz2v+ZafuVdgFViRKWfA==";
+      };
+    };
+    "textlint-rule-ja-space-after-question-2.4.2" = {
+      name = "textlint-rule-ja-space-after-question";
+      packageName = "textlint-rule-ja-space-after-question";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-space-after-question/-/textlint-rule-ja-space-after-question-2.4.2.tgz";
+        sha512 = "ie1R03y1606QApXu+ZF6X+bAJLccRy/lA5JityfTO9M4EM+7ENMle9fTMoEEKJkNkjHaLi530IzqAZ+CLEe8Qw==";
+      };
+    };
+    "textlint-rule-ja-space-around-code-2.4.2" = {
+      name = "textlint-rule-ja-space-around-code";
+      packageName = "textlint-rule-ja-space-around-code";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-space-around-code/-/textlint-rule-ja-space-around-code-2.4.2.tgz";
+        sha512 = "DM4OF7seafTKrxPFjUJyxx/lwlg8CO3wgwmTJWhQ+6po3mQVV6QaBHpc0861/32kUAJm1ZgRpiBlDWUdraXFFA==";
+      };
+    };
+    "textlint-rule-ja-space-around-link-2.4.2" = {
+      name = "textlint-rule-ja-space-around-link";
+      packageName = "textlint-rule-ja-space-around-link";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-space-around-link/-/textlint-rule-ja-space-around-link-2.4.2.tgz";
+        sha512 = "++o4wwCnDiubgE60QuOv0xW/0EcF2ta4EfjOycYsLYqvJ6DzFEZFGv3S/TujzmrIdRc8sHAO62489flvPu1DsQ==";
+      };
+    };
+    "textlint-rule-ja-space-between-half-and-full-width-2.4.2" = {
+      name = "textlint-rule-ja-space-between-half-and-full-width";
+      packageName = "textlint-rule-ja-space-between-half-and-full-width";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-ja-space-between-half-and-full-width/-/textlint-rule-ja-space-between-half-and-full-width-2.4.2.tgz";
+        sha512 = "GqwSy0ivm4Q5Bok9LaOwfg+H1auLRMoMi2aY/7aSIrgvX/RD5aZ2Rk2lm3TTX42mR1UrQu8GDqktUEZfvQ913w==";
       };
     };
     "textlint-rule-ja-unnatural-alphabet-2.0.1" = {
@@ -3539,6 +3611,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/textlint-rule-no-zero-width-spaces/-/textlint-rule-no-zero-width-spaces-1.0.1.tgz";
         sha512 = "AkxpzBILGB4YsXddzHx2xqpXmqMv5Yd+PQm4anUV+ADSJuwLP1Jd6yHf/LOtu9j3ps8K3XM9vQrXRK73z0bU3A==";
+      };
+    };
+    "textlint-rule-preset-ja-spacing-2.4.3" = {
+      name = "textlint-rule-preset-ja-spacing";
+      packageName = "textlint-rule-preset-ja-spacing";
+      version = "2.4.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/textlint-rule-preset-ja-spacing/-/textlint-rule-preset-ja-spacing-2.4.3.tgz";
+        sha512 = "WAiWY9TOE8/bRdl14XJdjkPQcV0hLS4O+PCUYU1yxXmJhZ8V3ciw2GYqpA9GL73qAxL25UD6mkf1yfz6aJ4qSA==";
       };
     };
     "textlint-rule-preset-ja-technical-writing-12.0.2" = {
@@ -4383,11 +4464,23 @@ let
       sources."text-table-0.2.0"
       sources."textlint-15.2.2"
       sources."textlint-rule-helper-2.5.0"
+      sources."textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.4.3"
       sources."textlint-rule-ja-no-abusage-3.0.0"
       sources."textlint-rule-ja-no-mixed-period-3.0.1"
       sources."textlint-rule-ja-no-redundant-expression-4.0.1"
+      sources."textlint-rule-ja-no-space-around-parentheses-2.4.2"
+      sources."textlint-rule-ja-no-space-between-full-width-2.4.2"
       sources."textlint-rule-ja-no-successive-word-2.0.1"
       sources."textlint-rule-ja-no-weak-phrase-2.0.0"
+      sources."textlint-rule-ja-space-after-exclamation-2.4.2"
+      sources."textlint-rule-ja-space-after-question-2.4.2"
+      sources."textlint-rule-ja-space-around-code-2.4.2"
+      sources."textlint-rule-ja-space-around-link-2.4.2"
+      (sources."textlint-rule-ja-space-between-half-and-full-width-2.4.2" // {
+        dependencies = [
+          sources."@textlint/regexp-string-matcher-2.0.2"
+        ];
+      })
       sources."textlint-rule-ja-unnatural-alphabet-2.0.1"
       sources."textlint-rule-max-comma-4.0.0"
       sources."textlint-rule-max-kanji-continuous-len-1.1.1"
@@ -4402,6 +4495,7 @@ let
       sources."textlint-rule-no-mix-dearu-desumasu-6.0.4"
       sources."textlint-rule-no-nfd-2.0.2"
       sources."textlint-rule-no-zero-width-spaces-1.0.1"
+      sources."textlint-rule-preset-ja-spacing-2.4.3"
       (sources."textlint-rule-preset-ja-technical-writing-12.0.2" // {
         dependencies = [
           sources."@textlint/module-interop-14.8.4"
