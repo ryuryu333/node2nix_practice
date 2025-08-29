@@ -20,8 +20,8 @@
       {
         devShells.default = pkgs.mkShell {
           packages = [
-            my-node-pkgs.eslint
-            my-node-pkgs.typescript-eslint
+            my-node-pkgs."eslint-9.34.0"
+            my-node-pkgs."typescript-eslint-8.41.0"
           ];
         };
       }

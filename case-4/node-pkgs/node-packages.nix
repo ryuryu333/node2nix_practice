@@ -1087,7 +1087,7 @@ let
   };
 in
 {
-  eslint = nodeEnv.buildNodePackage {
+  "eslint-9.34.0" = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
     version = "9.34.0";
@@ -1200,7 +1200,7 @@ in
     bypassCache = true;
     reconstructLock = true;
   };
-  typescript-eslint = nodeEnv.buildNodePackage {
+  "typescript-eslint-8.41.0" = nodeEnv.buildNodePackage {
     name = "typescript-eslint";
     packageName = "typescript-eslint";
     version = "8.41.0";
